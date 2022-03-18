@@ -1,0 +1,64 @@
+#bigdiv{
+    text-align: center;
+}
+.childDiv{
+    display: inline-block;
+    height:90vh;
+    margin:20px;
+    width: 23%;
+}
+nav{
+    height: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    width:100%;
+    margin-bottom: 10px;
+    height: 70%;
+}
+.text1{
+    padding: 5px;
+    font-size: 1.3rem;
+    font-weight:bold;
+    text-align: center;
+}
+.text2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+.text2 > div {
+    margin-right: 13px;
+}
+.text3 {
+    margin: 15px auto;
+}
+#logo1{
+    max-width: 50px;
+    max-height: 30px;
+}
+.logo2{
+    max-height: 1rem;
+}
+#heartRed{
+    max-width: 30px;
+    max-height: 30px;
+}
+#butcart{
+    background-color: black;
+    border: 1px solid black;
+    width: 6rem;
+    height: 2rem;
+}
+#butview{
+    width: 6rem;
+    height: 2rem;
+    background-color: white;
+    border: 2px solid black;
+}
+.text3 > input{
+    margin-right: 10px;
+}
+

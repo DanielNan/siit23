@@ -1,0 +1,32 @@
+ #pbody {
+    padding:40px 320px 75px 300px;
+   
+}
+#leftdiv{
+	float:left;
+    width:160px;
+    margin:0;
+    padding:1em;
+	
+}
+ 
+
+ #rightdiv {
+	
+	margin-left:180px;
+    border-left:1px solid gray;
+    padding:0.1em;
+	
+}
+#icon {
+	
+	width: 250px;
+	height: 250px;
+	margin-left: 100px;
+	border: 2px solid blue;
+	border-radius: 60%; 
+	
+}
+	
+
+
