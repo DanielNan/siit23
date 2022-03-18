@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+         function Maxi (n,m,t){
+             if(n > m && n > t){
+             return n;
+             }
+             if(m > n && m > t){
+             return m;    
+             }
+             if(t > n && t > m){
+             return t;    
+             }
+        }
+        console.log(Maxi(5,6,8));
+
+
+           
+
+            function arie (latura1,latura2){
+                let a = latura1 * latura2;
+                return a;
+            }
+            console.log(arie(4,6));
+
+            function patrat(latura){
+                let b = arie(latura, latura);
+                return b; 
+            }
+            console.log(patrat(20));
+
+           function mNote (n1, n2, n3, n4, t) {
+                return mNote = ((n1 + n2 + n3 +n4)/4 * 3 + t) / 4;
+              }
+                 console.log(mNote(4,5,6,7,8));
+
+           function sum(a,b){
+               if ( a === b )
+               return (a + b)* 3 ;
+           }
+
+
+    </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
+function hourConverter(num) {
+    let hours = (num / 60 / 60 / 60) % 60;
+    let minutes = (num / 60 / 60) % 60;
+    let sec = (num / 60) % 60;
+    let msec = num % 60;
+
+    return `${hours} hours ${minutes} minutes ${sec} secunds ${msec} miliseconds`;
+  }
+  console.log(hourConverter(100000000));
+
